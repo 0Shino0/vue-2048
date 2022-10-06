@@ -28,6 +28,7 @@
 }
 
 .game-grid {
+  height: 428px;
   position: relative;
   display: grid;
   grid-template-rows: repeat(var(--game-grid-size, 4), minmax(0, 1fr));
